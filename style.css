@@ -1,0 +1,49 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header {
+    text-align: center;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joke-section {
+    text-align: center;
+    transform: translateY(-1in);
+}
+
+.site-footer {
+    text-align: center;
+}
+
+/* Style the h1 elements */
+main h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: -2px;
+}
+
+/* Style the h2 elements */ 
+h2 {
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    border-bottom:.5px solid var(--secondary-bg);
+    margin: .5rem;
+    }
